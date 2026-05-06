@@ -6,6 +6,7 @@ metadata:
 spec:
   selector:
     app: wil-playground
+  type: LoadBalancer
   ports:
     - port: 8888
       targetPort: 8888
